@@ -168,7 +168,7 @@
           "picture_url": "https://picsum.photos/200/300",
           "category_id": "hfjfgjff",
           "quantity": 2,
-          "currency_id": "ARS",
+          "currency_id": "U$",
           "unit_price": 11
         },
       ],
