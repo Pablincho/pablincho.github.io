@@ -173,16 +173,16 @@
         }
       ]}
 
-fetch('https://api.mercadopago.com/checkout/preferences',{
-  method: 'POST',
-  mode: 'cors',
+fetch('https://api.mercadopago.com/checkout/preferences/search?',{
+  method: 'GET',
+  // mode: 'cors',
   headers: {
     'Authorizacion': 'Bearer TEST-5660405789946992-092200-b046900043a826fa361c15f989efd369-657245350',
     'Content-Type': 'application/json',
     'Accept': '*/*'
     // 'Access-Control-Allow-Origin': '*'
   },
-  body: JSON.stringify(elemento),
+  // body: JSON.stringify(elemento),
 }).then(response=>{
   console.log(response)
     // return response.json()
