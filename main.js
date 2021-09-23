@@ -170,8 +170,35 @@
           "quantity": 2,
           "currency_id": "ARS",
           "unit_price": 11
+        },
+      ],
+      "payer": {
+        "phone": {},
+        "identification": {},
+        "address": {}
+      },
+      "payment_methods": {
+        "excluded_payment_methods": [
+          {}
+        ],
+        "excluded_payment_types": [
+          {}
+        ]
+      },
+      "shipments": {
+        "free_methods": [
+          {}
+        ],
+        "receiver_address": {}
+      },
+      "back_urls": {},
+      "differential_pricing": {},
+      "tracks": [
+        {
+          "type": "google_ad"
         }
-      ]}
+      ]
+    }
 
 fetch('https://api.mercadopago.com/checkout/preferences/',{
   method: 'POST',
